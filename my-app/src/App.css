@@ -1,0 +1,98 @@
+/* Общие стили для контейнера приложения */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Стили заголовка */
+h1 {
+  color: #333;
+}
+
+/* Стили для кнопок фильтрации */
+.qwerty, .qwerty1 {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Стиль кнопки, когда она не в фокусе */
+.qwerty {
+  background-color: #eee;
+}
+
+/* Стиль кнопки при наведении или фокусе */
+.qwerty1:hover, .qwerty1:focus {
+  background-color: #ddd;
+}
+
+/* Стили для задачи */
+.task-cont, .task-contain {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* Стиль текста задачи */
+.task-text {
+  cursor: pointer;
+}
+
+/* Общие стили для кнопок задачи */
+.task-buttons, .task-buttons1 {
+  display: inline-block;
+  margin: 5px;
+}
+
+/* Стиль для кнопок действий над задачами */
+.glow-on-hover1, .glow-on-hover2 {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #555;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/* Стили для изменения вида кнопки при наведении */
+.glow-on-hover1:hover, .glow-on-hover2:hover {
+  background-color: #666;
+  color: #fff;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.24), 0 5px 15px 0 rgba(0,0,0,0.19);
+}
+
+/* Стиль для текстового поля ввода */
+input[type='text'] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Стиль для кнопки добавления/редактирования задачи */
+button[type='submit'] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Добавляет цвет для завершенной задачи */
+.completed {
+  color: #90EE90;
+}
